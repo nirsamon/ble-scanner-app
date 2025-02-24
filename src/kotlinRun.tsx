@@ -20,6 +20,7 @@ export const kotlinRun = async (props: RunProps): Promise<any> => {
         new Date().getTime() - requestStartedAt
       } ms`,
     );
+    console.log(`Params: ${JSON.stringify(props.params)}`)
 
     const result = JSON.parse(resultString);
     if (result.response) {

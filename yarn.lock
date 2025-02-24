@@ -4666,10 +4666,10 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-"kotlin-swift-bridge@file:../KotlinSwiftBridge/kotlin-swift-bridge-0.0.1.tgz":
+"kotlin-swift-bridge@file:../kotlin-swift-bridge/kotlin-swift-bridge-0.0.1.tgz":
   version "0.0.1"
-  resolved "file:../KotlinSwiftBridge/kotlin-swift-bridge-0.0.1.tgz"
-  integrity sha512-jdHEmc1vg4loQeAhmKh2n1v1V+EDClDNtk3qjNuE8TSRlIraDinaoXBi4hLa/5TA3dOWgs49ssJacfke6FBm/w==
+  resolved "file:../kotlin-swift-bridge/kotlin-swift-bridge-0.0.1.tgz"
+  integrity sha512-HRKskbN4e4e7YwsA3XL9HVpzwjlk83Ie+zMDPILhmD1BaPD2YY64UpLVYqp453/xhLVs4gBgoRHtCLqaTl5hqQ==
   dependencies:
     react "19.0.0"
     react-native "0.78.0"

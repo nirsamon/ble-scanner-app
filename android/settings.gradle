@@ -1,0 +1,9 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'BLEScanner'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+include ':kotlin-swift-bridge'
+project(':kotlin-swift-bridge').projectDir = new File(rootProject.projectDir, '../node_modules/kotlin-swift-bridge/android')
